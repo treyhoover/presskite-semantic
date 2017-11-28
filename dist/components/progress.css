@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.12 - Progress Bar
+ * # Semantic UI 2.2.13 - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -19,7 +19,8 @@
   max-width: 100%;
   border: none;
   margin: 1em 0em 2.5em;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   background: rgba(0, 0, 0, 0.1);
   padding: 0em;
   border-radius: 0.28571429rem;
@@ -179,7 +180,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #21BA45 !important;
+  background-color: #6CCB93 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {
@@ -301,7 +302,7 @@
   color: #FFFFFF;
 }
 .ui.inverted.progress.success > .label {
-  color: #21BA45;
+  color: #6CCB93;
 }
 .ui.inverted.progress.warning > .label {
   color: #F2C037;
@@ -374,7 +375,7 @@
 
 /* Orange */
 .ui.orange.progress .bar {
-  background-color: #F2711C;
+  background-color: #E74B3B;
 }
 .ui.orange.inverted.progress .bar {
   background-color: #FF851B;
@@ -398,7 +399,7 @@
 
 /* Green */
 .ui.green.progress .bar {
-  background-color: #21BA45;
+  background-color: #6CCB93;
 }
 .ui.green.inverted.progress .bar {
   background-color: #2ECC40;
@@ -414,7 +415,7 @@
 
 /* Blue */
 .ui.blue.progress .bar {
-  background-color: #2185D0;
+  background-color: #496FDF;
 }
 .ui.blue.inverted.progress .bar {
   background-color: #54C8FF;
@@ -422,7 +423,7 @@
 
 /* Violet */
 .ui.violet.progress .bar {
-  background-color: #6435C9;
+  background-color: #8192FF;
 }
 .ui.violet.inverted.progress .bar {
   background-color: #A291FB;
@@ -430,7 +431,7 @@
 
 /* Purple */
 .ui.purple.progress .bar {
-  background-color: #A333C8;
+  background-color: #8192FF;
 }
 .ui.purple.inverted.progress .bar {
   background-color: #DC73FF;

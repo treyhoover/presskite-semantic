@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.12 - List
+ * # Semantic UI 2.2.13 - List
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -159,7 +159,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -191,7 +191,7 @@ ol.ui.list ol li,
 /* Linked Item Icons */
 .ui.list .list > a.item i.icon,
 .ui.list > a.item i.icon {
-  color: rgba(0, 0, 0, 0.4);
+  color: #383838;
 }
 
 /* Header Link */
