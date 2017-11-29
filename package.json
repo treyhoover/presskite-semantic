@@ -1,6 +1,6 @@
 {
   "name": "presskite-semantic",
-  "version": "2.2.14",
+  "version": "2.2.15",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage": "http://www.semantic-ui.com",
@@ -14,7 +14,6 @@
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
   "scripts": {
-    "install": "gulp install"
   },
   "peerDependencies": {
     "better-console": "*",
