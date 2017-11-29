@@ -14,6 +14,8 @@
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
   "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "peerDependencies": {
     "better-console": "*",
