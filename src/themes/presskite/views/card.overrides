@@ -29,6 +29,6 @@ img {
     border: none !important;
 }
 
-.team .ui.items > .item > .content > .card {
-	background-color: transparent !important;
+.products > .accordion > .content.active > .ui.cards > .ui.card {
+    box-shadow: none !important;
 }
