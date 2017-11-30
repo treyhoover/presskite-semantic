@@ -16,7 +16,7 @@
 @googleFontNameMain      : @fontNameMain;
 @googleFontNameSecondary : @fontNameSecondary;
 @importGoogleFonts       : true;
-@googleFontSizes         : '300,400italic,500,600';
+@googleFontSizes         : '300,400,400italic,500,600';
 
 @googleProtocol    : 'https://';
 @googleFontRequest : '@{googleFontNameMain}:@{googleFontSizes}';
@@ -30,7 +30,7 @@
 @emSize   : 14px;
 
 /* The size of page text  */
-@fontSize : 14px;
+@fontSize : 12px;
 
 
 /*-------------------

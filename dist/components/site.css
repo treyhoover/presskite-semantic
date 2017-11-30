@@ -13,7 +13,7 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400italic,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,400italic,500,600');
 html,
 body {
   height: 100%;
@@ -28,7 +28,7 @@ body {
   min-width: 320px;
   background: #F2F2F2;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
@@ -189,12 +189,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
 body .ui.inverted::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.35);
 }
-
-
-/*******************************
-        Global Overrides
-*******************************/
-
 
 
 /*******************************
