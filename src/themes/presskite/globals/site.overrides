@@ -19,11 +19,9 @@
 /* Used in Contact */
 
 .ui.muted.text {
-    font-family: Open Sans;
-    font-weight: 500;
-    line-height: 115%;
-    color: #8A8A8A;
-    font-size: .9em;
+    font-family: Open Sans !important;
+    color: #8A8A8A ;
+    font-size: .9em !important;
 }
 
 /* Section - Company */
@@ -40,7 +38,7 @@
 /* Section - Team */ 
 
 .team .ui.items > .item > .content > .description {
-	padding: 20px;
+	padding: 20px !important;
 }
 
 

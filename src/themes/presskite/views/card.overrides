@@ -21,10 +21,14 @@
     color: #7D7D7D;
 }
 
-img.ui.image {
-    border: none;
+img {
+    border: none !important;
 }
 
 .content {
     border: none !important;
+}
+
+.team .ui.items > .item > .content > .card {
+	background-color: transparent !important;
 }
