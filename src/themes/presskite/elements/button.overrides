@@ -5,10 +5,10 @@
 /* Let The Spaghetti Fly */
 
 .ui.green.button {
-	box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3);
+	box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
 }
 
 .ui.purple.button {
-	box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3);
+	box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
 }
 

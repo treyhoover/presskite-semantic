@@ -1,58 +1,57 @@
-/*******************************
-        Global Overrides
-*******************************/
+	/*******************************
+	        Global Overrides
+	*******************************/
 
-/* Kit */
+	/* Kit */
 
-.ui.bottom.attached.segment {
-    box-shadow: 0px 8px 50px #ECECEC !important;
-    border-radius: 10px !important;
-    border: none !important;
-    max-width: 960px !important;
-    margin: 0 auto !important;
-}
+	.ui.bottom.attached.segment {
+	    box-shadow: 0px 8px 50px #ECECEC !important;
+	    border-radius: 10px !important;
+	    border: none !important;
+	    max-width: 960px !important;
+	    margin: 0 auto !important;
+	}
 
-.kit {
-    padding: 20px 30px 20px 30px !important;
-}
+	.kit {
+	    padding: 20px 30px 20px 30px !important;
+	}
 
-/* Used in Contact */
+	/* Used in Contact */
 
-.ui.muted.text {
-    font-family: Open Sans !important;
-    color: #8A8A8A ;
-    font-size: .9em !important;
-}
+	.ui.muted.text {
+	    font-family: Open Sans !important;
+	    color: #8A8A8A ;
+	    font-size: .9em !important;
+	}
 
-/* Section - Company */
+	/* Section - Company */
 
-.company-overview .ui.accordion .title ~ .content {
-	font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 21px;
-    font-size: 1em;
-}
-
-
-/* Section - Team */ 
-
-.team .ui.items > .item > .content > .description {
-	padding: 20px !important;
-}
+	.company-overview .ui.accordion .title ~ .content {
+		font-family: Open Sans;
+	    font-weight: 600;
+	    line-height: 21px;
+	    font-size: 1.1em;
+	}
 
 
-.notranslate.public-DraftEditor-content {
-    outline: 1px solid rgb(148, 148, 148) !important;
-}
+	/* Section - Team */ 
 
-/* Global Headers */
+	.team .ui.items > .item > .content > .description {
+		padding: 20px !important;
+	}
 
-h2 {
-    font-family: Montserrat !;
-	font-weight: 600;
-	text-transform:  !important;
-	font-size: 1.3em !important;
-	color: #383838 !important;
-}
+
+	.notranslate.public-DraftEditor-content {
+	    outline: 1px solid rgb(148, 148, 148) !important;
+	}
+
+	/* Global Headers */
+
+	h2 {
+	    font-family: Montserrat;
+		font-weight: 600;
+		text-transform:  !important;
+		font-size: 1.3em !important;
+		color: #383838 !important;
+	}
 
