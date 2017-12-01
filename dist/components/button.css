@@ -3683,12 +3683,12 @@
 
 /* Let The Spaghetti Fly */
 .ui.green.button {
-  -webkit-box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3);
-          box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3);
+  -webkit-box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
+          box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
 }
 .ui.purple.button {
-  -webkit-box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3);
-          box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3);
+  -webkit-box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
+          box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
 }
 
 

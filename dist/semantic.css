@@ -752,6 +752,62 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 /*******************************
+	        Global Overrides
+	*******************************/
+
+/* Kit */
+
+.ui.bottom.attached.segment {
+  -webkit-box-shadow: 0px 8px 50px #ECECEC !important;
+  box-shadow: 0px 8px 50px #ECECEC !important;
+  border-radius: 10px !important;
+  border: none !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+}
+
+.kit {
+  padding: 20px 30px 20px 30px !important;
+}
+
+/* Used in Contact */
+
+.ui.muted.text {
+  font-family: Open Sans !important;
+  color: #8A8A8A;
+  font-size: .9em !important;
+}
+
+/* Section - Company */
+
+.company-overview .ui.accordion .title ~ .content {
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 21px;
+  font-size: 1.1em;
+}
+
+/* Section - Team */
+
+.team .ui.items > .item > .content > .description {
+  padding: 20px !important;
+}
+
+.notranslate.public-DraftEditor-content {
+  outline: 1px solid #949494 !important;
+}
+
+/* Global Headers */
+
+h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  text-transform: !important;
+  font-size: 1.3em !important;
+  color: #383838 !important;
+}
+
+/*******************************
          Site Overrides
 *******************************/
 /*!
@@ -4943,13 +4999,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 /* Let The Spaghetti Fly */
 
 .ui.green.button {
-  -webkit-box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3);
-  box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3);
+  -webkit-box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
+  box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
 }
 
 .ui.purple.button {
-  -webkit-box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3);
-  box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3);
+  -webkit-box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
+  box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
 }
 
 /*******************************
@@ -26785,12 +26841,17 @@ a.ui.card:hover,
   color: #7D7D7D;
 }
 
-img.ui.image {
-  border: none;
+img {
+  border: none !important;
 }
 
 .content {
   border: none !important;
+}
+
+.products > .accordion > .content.active > .ui.cards > .ui.card {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 /*******************************

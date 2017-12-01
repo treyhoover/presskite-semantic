@@ -1006,11 +1006,15 @@ a.ui.card:hover,
   font-size: 0.9em;
   color: #7D7D7D;
 }
-img.ui.image {
-  border: none;
+img {
+  border: none !important;
 }
 .content {
   border: none !important;
+}
+.products > .accordion > .content.active > .ui.cards > .ui.card {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 
