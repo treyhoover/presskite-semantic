@@ -752,22 +752,28 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 /*******************************
-	        Global Overrides
-	*******************************/
+        Global Overrides
+*******************************/
 
 /* Kit */
 
 .ui.bottom.attached.segment {
-  -webkit-box-shadow: 0px 8px 50px #ECECEC !important;
-  box-shadow: 0px 8px 50px #ECECEC !important;
-  border-radius: 10px !important;
+  -webkit-box-shadow: 0 8px 50px #ececec !important;
+  box-shadow: 0rem 1.75rem 2rem 0rem rgba(87, 87, 87, 0.149) !important;
+  border-radius: 30px !important;
   border: none !important;
-  max-width: 960px !important;
+  max-width: 870px !important;
   margin: 0 auto !important;
 }
 
 .kit {
-  padding: 20px 30px 20px 30px !important;
+  padding: 30px 60px !important;
+}
+
+.ui.kit-description {
+  color: #808080 !important;
+  font-weight: 400 !important;
+  font-size: .9em !important;
 }
 
 /* Used in Contact */
@@ -805,6 +811,11 @@ h2 {
   text-transform: !important;
   font-size: 1.3em !important;
   color: #383838 !important;
+}
+
+.ui.header {
+  color: #2F2E3B !important;
+  font-weight: 500 !important;
 }
 
 /*******************************
