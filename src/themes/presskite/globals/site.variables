@@ -6,21 +6,12 @@
        Fonts
 --------------------*/
 
-@fontNameMain            : 'Montserrat';
-@fontNameSecondary       : 'Open Sans';
-@fontSmoothing           : antialiased;
-
-@headerFont              : @fontNameMain, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont                : @fontNameSecondary, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-
-@googleFontNameMain      : @fontNameMain;
-@googleFontNameSecondary : @fontNameSecondary;
-@importGoogleFonts       : true;
-@googleFontSizes         : '300,400,400italic,500,600';
-
+@headerFont        : 'Montserrat', sans-serif;
+@pageFont          : 'Open Sans', sans-serif;
+@fontSmoothing     : antialiased;
+@importGoogleFonts : true;
 @googleProtocol    : 'https://';
-@googleFontRequest : '@{googleFontNameMain}:@{googleFontSizes}';
-@googleFontRequest : '@{googleFontNameSecondary}:@{googleFontSizes}';
+@googleFontRequest : 'Montserrat:300,400,500,600|OpenSans:300,400,400italic,500,600';
 
 /*-------------------
       Base Sizes
