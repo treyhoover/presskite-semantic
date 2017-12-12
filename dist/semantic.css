@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,400italic,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Open+Sans:300,400,400italic,500,600');
 /*!
  * # Semantic UI 2.2.13 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -569,7 +569,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: #F2F2F2;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
@@ -585,7 +585,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   font-weight: bold;
@@ -752,7 +752,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 }
 
 /*******************************
-        Global Overrides
+Global Overrides
 *******************************/
 
 /* Kit */
@@ -784,23 +784,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   font-size: .9em !important;
 }
 
-/* Section - Company */
-
-.company-overview .ui.accordion .title ~ .content {
-  font-family: Open Sans;
-  font-weight: 600;
-  line-height: 21px;
-  font-size: 1.1em;
-}
-
 /* Section - Team */
 
 .team .ui.items > .item > .content > .description {
   padding: 20px !important;
-}
-
-.notranslate.public-DraftEditor-content {
-  outline: 1px solid #949494 !important;
 }
 
 /* Global Headers */
@@ -809,13 +796,28 @@ h2 {
   font-family: Montserrat;
   font-weight: 600;
   text-transform: !important;
-  font-size: 1.3em !important;
   color: #383838 !important;
 }
 
 .ui.header {
   color: #2F2E3B !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 1.15em !important;
+}
+
+/* Edit Kit Form - Inputs */
+
+.notranslate.public-DraftEditor-content:focus {
+  -webkit-box-shadow: 0px 1px 0px 0px #6bc1ff38;
+  box-shadow: 0px 1px 0px 0px #6bc1ff38;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.notranslate.public-DraftEditor-content {
+  -webkit-box-shadow: 0px 1px 0px 0px #dcf0ff38;
+  box-shadow: 0px 1px 0px 0px #dcf0ff38;
 }
 
 /*******************************
@@ -844,7 +846,7 @@ h2 {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
   text-transform: none;
@@ -5138,7 +5140,7 @@ h2 {
 /* Text Container */
 
 .ui.text.container {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
@@ -6741,7 +6743,7 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 1.28571429em;
   text-transform: none;
@@ -12185,7 +12187,7 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.21428571em;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0.67857143em 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -14340,7 +14342,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -17127,7 +17129,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.14285714em;
   font-weight: bold;
 }
@@ -17910,7 +17912,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -21319,7 +21321,7 @@ ol.ui.horizontal.list li:before,
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -23627,7 +23629,7 @@ Floated Menu / Item
 
 .ui.message .header {
   display: block;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   margin: -0.14285714em 0em 0rem 0em;
 }
@@ -25910,7 +25912,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -27617,7 +27619,7 @@ img {
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0em 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -28096,7 +28098,7 @@ img {
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
@@ -28111,7 +28113,7 @@ img {
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -28659,7 +28661,7 @@ img {
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -31678,7 +31680,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -32435,7 +32437,7 @@ a.ui.nag {
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.14285714em;
   line-height: 1.2;
   font-weight: bold;
@@ -34213,7 +34215,7 @@ a.ui.nag {
 
 .ui.search > .results .result .title {
   margin: -0.14285714em 0em 0em;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -34239,7 +34241,7 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
@@ -34452,7 +34454,7 @@ a.ui.nag {
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;

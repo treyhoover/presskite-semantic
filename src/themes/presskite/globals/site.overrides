@@ -1,44 +1,36 @@
 /*******************************
-        Global Overrides
+Global Overrides
 *******************************/
 
 /* Kit */
 
 .ui.bottom.attached.segment {
-    -webkit-box-shadow: 0 8px 50px #ececec !important;
+	-webkit-box-shadow: 0 8px 50px #ececec !important;
 	box-shadow: 0rem 1.75rem 2rem 0rem rgba(87, 87, 87, 0.149) !important;
-    border-radius: 30px !important;
-    border: none !important;
-    max-width: 870px !important; 
-    margin: 0 auto !important;
+	border-radius: 30px !important;
+	border: none !important;
+	max-width: 870px !important; 
+	margin: 0 auto !important;
 } 
 
 .kit {
-    padding: 30px 60px !important;
+	padding: 30px 60px !important;
 }
 
 .ui.kit-description {
-    color: #808080 !important;
+	color: #808080 !important;
 	font-weight: 400 !important;
-    font-size: .9em !important;
+	font-size: .9em !important;
 }
 
 /* Used in Contact */
 
 .ui.muted.text {
-    font-family: Open Sans !important;
-    color: #8A8A8A ;
-    font-size: .9em !important;
+	font-family: Open Sans !important;
+	color: #8A8A8A ;
+	font-size: .9em !important;
 }
 
-/* Section - Company */
-
-.company-overview .ui.accordion .title ~ .content {
-	font-family: Open Sans;
-    font-weight: 600;
-    line-height: 21px;
-    font-size: 1.1em;
-}
 
 
 /* Section - Team */ 
@@ -51,25 +43,26 @@
 /* Global Headers */
 
 h2 {
-    font-family: Montserrat;
+	font-family: Montserrat;
 	font-weight: 600;
 	text-transform:  !important;
-	font-size: 1.3em !important;
 	color: #383838 !important;
 }
 
 .ui.header {
-color: #2F2E3B !important;
-font-weight: 500 !important;
-    }
+	color: #2F2E3B !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 1.15em !important;
+}
 
 /* Edit Kit Form - Inputs */
 
 .notranslate.public-DraftEditor-content:focus {
-    box-shadow: 0px 1px 0px 0px #6bc1ff38;
-    transition: .5s;
+	box-shadow: 0px 1px 0px 0px #6bc1ff38;
+	transition: .5s;
 }
 
 .notranslate.public-DraftEditor-content {
-    box-shadow: 0px 1px 0px 0px #dcf0ff38;
+	box-shadow: 0px 1px 0px 0px #dcf0ff38;
 }
