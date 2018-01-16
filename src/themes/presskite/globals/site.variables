@@ -212,11 +212,11 @@
 @orange           : #E74B3B;
 @yellow           : #FBBD08;
 @olive            : #B5CC18;
-@green            : #6CCB93;
+@green            : #04D45C;
 @teal             : #00B5AD;
 @blue             : #496FDF;
 @violet           : #8192FF;
-@purple           : #8192FF;
+@purple           : #8284ff;
 @pink             : #E03997;
 @brown            : #A5673F;
 @grey             : #767676;

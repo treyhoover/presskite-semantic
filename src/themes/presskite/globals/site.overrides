@@ -1,3 +1,56 @@
 /*******************************
 Global Overrides
 *******************************/
+
+
+.ui.input {
+    margin-bottom: 0px;
+    font-size:1em;
+    line-height: 160%;
+    color: #616161;
+}
+
+.ui.header {
+    color: #383838 !important;
+    text-transform: none !important;
+}
+
+.ui.list .list > .item .header, .ui.list > .item .header {
+    text-transform: none !important;
+    font-size: 1em !important;
+}
+
+
+.facebook.large.icon {
+    color: #3B5998;
+}
+
+.instagram.large.icon {
+    color:#fb3958;
+}
+
+.twitter.large.icon {
+    color: #0084b4;
+}
+
+.ui.segment.piled {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* V2 Style */
+/* 
+
+Product Hovers 
+
+.products > .accordion > .content.active > .ui.cards > .ui.card:hover {
+    box-shadow: 0px 3px 6px rgba(130,132,255, .3)!important;
+}
+
+Need to work on this selector...
+
+.section > .ui.card {
+    padding-top: 10px !important;
+}
+
+*/
