@@ -437,12 +437,12 @@
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #8192FF;
-  -webkit-box-shadow: 0px 0px 0px 1px #8192FF inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #8192FF inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #8284ff;
+  -webkit-box-shadow: 0px 0px 0px 1px #8284ff inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #8284ff inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #677cff;
+  color: #686bff;
 }
 .ui.pink.message {
   background-color: #FFE3FB;

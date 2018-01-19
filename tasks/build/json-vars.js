@@ -1,22 +1,22 @@
 /*******************************
-          Build Task
-*******************************/
+ Build Task
+ *******************************/
 
 var
-  gulp         = require('gulp'),
-  fs           = require('fs'),
-  less         = require('less'),
-  through      = require('through2'),
+  gulp = require('gulp'),
+  fs = require('fs'),
+  less = require('less'),
+  through = require('through2'),
 
   // config
-  config       = require('../config/user'),
+  config = require('../config/user'),
 
   // shorthand
-  output       = config.paths.output,
-  source       = config.paths.source
+  output = config.paths.output,
+  source = config.paths.source
 ;
 
-module.exports = function(callback) {
+module.exports = function (callback) {
 
   console.info('Building json vars');
 
@@ -50,7 +50,10 @@ module.exports = function(callback) {
 
         const json = JSON.stringify(lessVars, null, 2);
 
-        fs.mkdirSync(output.packaged);
+        if (!fs.existsSync(output.packaged)) {
+          fs.mkdirSync(output.packaged);
+        }
+
         fs.writeFile(output.packaged + '/variables.json', json, cb);
       });
     }));
