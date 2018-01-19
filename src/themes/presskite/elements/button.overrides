@@ -6,9 +6,21 @@
 
 .ui.green.button {
 	box-shadow: 0px 6px 12px rgba(108, 203, 147, 0.3) !important;
+	transition: all 0.5s ease !important;
 }
 
-.ui.purple.button {
-	box-shadow: 0px 6px 12px rgba(129, 146, 255, 0.3) !important;
+.ui.green.button:hover {
+    background-color: rgb(3, 175, 76) !important;
+    box-shadow: 0px 3px 6px rgba(4, 212, 92, .3)!important;
+}
+
+.ui.purple.button {    
+	box-shadow: 0px 6px 12px rgba(130,132,255, .3)!important;
+    transition: all 0.5s ease !important;
+}
+
+.ui.purple.button:hover {
+    background-color:rgb(119, 121, 233) !important;
+    box-shadow: 0px 3px 6px rgba(130,132,255, .3)!important;
 }
 
