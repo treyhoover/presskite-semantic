@@ -4,10 +4,10 @@ Global Overrides
 
 
 .ui.input {
-    margin-bottom: 0px;
-    font-size:1em;
-    line-height: 160%;
-    color: #616161;
+    margin-bottom: 0px !important;
+    font-size:1em !important;
+    line-height: 160% !important;
+    color: #616161 !important;
 }
 
 .ui.header {
@@ -22,20 +22,20 @@ Global Overrides
 
 
 .facebook.large.icon {
-    color: #3B5998;
+    color: #3B5998 !important;
 }
 
 .instagram.large.icon {
-    color:#fb3958;
+    color:#fb3958 !important;
 }
 
 .twitter.large.icon {
-    color: #0084b4;
+    color: #0084b4 !important;
 }
 
 .ui.segment.piled {
-    max-width: 480px;
-    margin: 0 auto;
+    max-width: 480px !important;
+    margin: 0 auto !important;
 }
 
 /* V2 Style */
