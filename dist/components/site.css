@@ -201,10 +201,6 @@ Global Overrides
   line-height: 160% !important;
   color: #616161 !important;
 }
-.ui.header {
-  color: #383838 !important;
-  text-transform: none !important;
-}
 .ui.list .list > .item .header,
 .ui.list > .item .header {
   text-transform: none !important;
